@@ -1,14 +1,14 @@
 import { BrowserRouter as Router,Routes,Route,Link } from "react-router-dom";
-import HomePage from "./Pages/HomePage";
+import HomePage from "./pages2/HomePage";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import ContactPage from "./Pages/ContactPage";
+import ContactPage from "./pages2/ContactPage";
 import "./styles/pages.css";
 import "./App.css";
-import AboutPage from "./Pages/AboutPage";
-import CoursesPage from "./Pages/CoursesPage";
-import AdmissionsPage from "./Pages/AdmissionsPage";
-import NotFoundPage from "./Pages/NotFoundPage";
+import AboutPage from "./pages2/AboutPage";
+import CoursesPage from "./pages2/CoursesPage";
+import AdmissionsPage from "./pages2/AdmissionsPage";
+import NotFoundPage from "./pages2/NotFoundPage";
 
 function App () {
   return (
