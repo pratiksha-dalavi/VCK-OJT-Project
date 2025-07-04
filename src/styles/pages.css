@@ -323,6 +323,7 @@
     width: auto;
     /* Allow natural width */
   }
+  
 
 }
 
@@ -339,5 +340,8 @@
 
   .hero-overlay-text p {
     font-size: 0.9em;
+  }
+  footer {
+    display: block;
   }
 }
